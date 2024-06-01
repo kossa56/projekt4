@@ -1,3 +1,0 @@
-C:/Users/michal/Desktop/projekt4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/sdl2-populate.dir
-C:/Users/michal/Desktop/projekt4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/ALL_BUILD.dir
-C:/Users/michal/Desktop/projekt4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/ZERO_CHECK.dir
