@@ -25,6 +25,27 @@ void generateEngineSound(Uint8* buffer, int length, double frequency, double lef
     }
 }
 
+// Definicja funkcji rysującej trajektorię drona w trzech różnych płaszczyznach: X, Y i Theta w czasie
+void rysuj(std::vector<float> x_history, std::vector<float> y_history, std::vector<float> theta_history, std::vector<float> time) {
+    // Tworzenie trzech podwykresów ułożonych jeden pod drugim (3 wiersze, 1 kolumna) w oknie wykresu
+    matplot::subplot(3, 1, 0); // Pierwszy podwykres - pozycja X
+    // Tworzenie wykresu pozycji X w zależności od czasu
+    matplot::plot(time, x_history);
+    matplot::title("X"); // Dodanie tytułu "X" do wykresu
+
+    matplot::subplot(3, 1, 1); // Drugi podwykres - pozycja Y
+    // Tworzenie wykresu pozycji Y w zależności od czasu
+    matplot::plot(time, y_history);
+    matplot::title("Y"); // Dodanie tytułu "Y" do wykresu
+
+    matplot::subplot(3, 1, 2); // Trzeci podwykres - kąt Theta
+    // Tworzenie wykresu kąta Theta w zależności od czasu
+    matplot::plot(time, theta_history);
+    matplot::title("Theta"); // Dodanie tytułu "Theta" do wykresu
+
+    matplot::show(); // Wyświetlenie wygenerowanych wykresów w oknie wykresu
+}
+
 
 Eigen::MatrixXf LQR(PlanarQuadrotor &quadrotor, float dt) {
     //LQR
@@ -102,7 +123,7 @@ int main(int argc, char* args[])
      * For implemented LQR controller, it has to be [x, y, 0, 0, 0, 0]
     */
     Eigen::VectorXf goal_state = Eigen::VectorXf::Zero(6);
-    goal_state << -1, 7, 0, 0, 0, 0;
+    goal_state << SCREEN_WIDTH/2, SCREEN_HEIGHT/2, 0, 0, 0, 0;
     quadrotor.SetGoal(goal_state);
     /* Timestep for the simulation */
     const float dt = 0.01;
@@ -114,9 +135,12 @@ int main(int argc, char* args[])
      * 1. Update x, y, theta history vectors to store trajectory of the quadrotor
      * 2. Plot trajectory using matplot++ when key 'p' is clicked
     */
-    std::vector<float> x_history;
-    std::vector<float> y_history;
-    std::vector<float> theta_history;
+    // Tworzenie wektorów historii pozycji X, Y, kąta Theta oraz czasu,
+    // zainicjowanych początkowymi wartościami
+    std::vector<float> x_history{float(start_x)}; // Wektor historii pozycji X, inicjowany wartością start_x
+    std::vector<float> y_history{float(start_y)}; // Wektor historii pozycji Y, inicjowany wartością start_y
+    std::vector<float> theta_history{0}; // Wektor historii kąta Theta, inicjowany wartością 0
+    std::vector<float> time{0}; // Wektor czasu, inicjowany wartością 0
 
     if (init(gWindow, gRenderer, SCREEN_WIDTH, SCREEN_HEIGHT) >= 0)
     {
@@ -124,6 +148,7 @@ int main(int argc, char* args[])
         bool quit = false;
         float delay;
         int x, y;
+        float probki = 0;
         Eigen::VectorXf state = Eigen::VectorXf::Zero(6);
 
         while (!quit)
@@ -148,6 +173,10 @@ int main(int argc, char* args[])
                         std::cout<<"Mouse left-click "<<x<<" "<<y<<std::endl;
                         quadrotor.SetGoal(goal_state);
                     }
+                    if(e.type==SDL_KEYDOWN && e.key.keysym.sym==SDLK_p){
+                        std::thread p(rysuj,x_history,y_history,theta_history,time);
+                        p.detach();
+                    }
                 }
                 
             }
@@ -162,20 +191,37 @@ int main(int argc, char* args[])
 
             SDL_RenderPresent(gRenderer.get());
 
-            /* Simulate quadrotor forward in time */
-            control(quadrotor, K);
-        quadrotor.Update(dt);
+            /* Symulacja drona w przód w czasie */
+            control(quadrotor, K); // Wywołanie funkcji kontrolującej drona
+            quadrotor.Update(dt); // Aktualizacja stanu drona
 
-        // Generowanie dźwięku silnika na podstawie ruchu quadrotora
-        double state_theta = quadrotor.GetState()[2]; // Pobierz kąt theta
-        double left_gain = 1 + std::abs(state_theta) / M_PI; // Oblicz współczynnik wzmocnienia dla lewego głośnika
-        double frequency = 150; // Bazowa częstotliwość dźwięku
-        Uint8* audioBuffer = new Uint8[spec.samples];
-        generateEngineSound(audioBuffer, spec.samples, frequency, left_gain);
-        SDL_QueueAudio(deviceId, audioBuffer, spec.samples);
-        SDL_PauseAudioDevice(deviceId, 0);
-        delete[] audioBuffer;
-    }
+            // Pętla while sprawdzająca, czy dron osiągnął nową pozycję w odległości większej niż 0.2 od poprzedniej
+            while (abs(x_history.back() - quadrotor.GetState()[0]) > 0.2 || abs(y_history.back() - quadrotor.GetState()[1]) > 0.2) {
+                // Warunek sprawdzający, czy nie przekroczono limitu danych w historii
+                if (probki > 8000) {
+                    // Usunięcie najstarszych danych z wektorów historii
+                    time.erase(time.begin()); // Usunięcie czasu
+                    x_history.erase(x_history.begin()); // Usunięcie pozycji X
+                    y_history.erase(y_history.begin()); // Usunięcie pozycji Y
+                    theta_history.erase(theta_history.begin()); // Usunięcie kąta Theta
+                }
+                // Dodanie nowych danych do wektorów historii
+                time.push_back(++probki); // Dodanie nowego czasu
+                x_history.push_back(quadrotor.GetState()[0]); // Dodanie nowej pozycji X drona
+                y_history.push_back(quadrotor.GetState()[1]); // Dodanie nowej pozycji Y drona
+                theta_history.push_back(quadrotor.GetState()[2]); // Dodanie nowego kąta Theta drona
+            }
+
+            // Generowanie dźwięku silnika na podstawie ruchu quadrotora
+            double state_theta = quadrotor.GetState()[2]; // Pobierz kąt theta
+            double left_gain = 1 + std::abs(state_theta) / M_PI; // Oblicz współczynnik wzmocnienia dla lewego głośnika
+            double frequency = 150; // Bazowa częstotliwość dźwięku
+            Uint8* audioBuffer = new Uint8[spec.samples];
+            generateEngineSound(audioBuffer, spec.samples, frequency, left_gain);
+            SDL_QueueAudio(deviceId, audioBuffer, spec.samples);
+            SDL_PauseAudioDevice(deviceId, 0);
+            delete[] audioBuffer;
+        }
     
     }
     // Zwalnianie zasobów SDL
