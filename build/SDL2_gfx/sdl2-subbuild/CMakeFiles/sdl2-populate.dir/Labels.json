@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/sdl2-populate"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/471058afe8d1b9f365dfd9a9afd2dfa4/sdl2-populate.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/ee0287871fd7f778631fc3321c87bdc1/sdl2-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e3456de99280d1b9177946b0b9ebb827/sdl2-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e3456de99280d1b9177946b0b9ebb827/sdl2-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e3456de99280d1b9177946b0b9ebb827/sdl2-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e3456de99280d1b9177946b0b9ebb827/sdl2-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e3456de99280d1b9177946b0b9ebb827/sdl2-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e3456de99280d1b9177946b0b9ebb827/sdl2-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e3456de99280d1b9177946b0b9ebb827/sdl2-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/tp_projekt_4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/e3456de99280d1b9177946b0b9ebb827/sdl2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdl2-populate"
+		],
+		"name" : "sdl2-populate"
+	}
+}

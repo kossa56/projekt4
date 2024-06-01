@@ -1,0 +1,10 @@
+[submodule "matplotplusplus"]
+	path = matplotplusplus
+	url = https://github.com/alandefreitas/matplotplusplus
+[submodule "SDL"]
+	path = SDL
+	url = https://github.com/libsdl-org/SDL.git
+	branch = SDL2
+[submodule "SDL2_gfx"]
+	path = SDL2_gfx
+	url = https://github.com/mupfdev/SDL2_gfx
