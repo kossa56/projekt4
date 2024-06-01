@@ -1,0 +1,16 @@
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_assert.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_assert.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_common.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_common.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_compare.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_compare.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_crc32.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_crc32.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_font.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_font.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_fuzzer.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_fuzzer.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_harness.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_harness.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_imageBlit.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_imageBlit.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_imageBlitBlend.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_imageBlitBlend.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_imageFace.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_imageFace.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_imagePrimitives.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_imagePrimitives.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_imagePrimitivesBlend.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_imagePrimitivesBlend.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_log.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_log.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_md5.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_md5.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_memory.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_memory.obj
+C:\Users\michal\Desktop\projekt4\SDL\src\test\SDL_test_random.c;C:\Users\michal\Desktop\projekt4\build\SDL\SDL2_test.dir\Debug\SDL_test_random.obj

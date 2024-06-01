@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt4\build\_deps\eigen-subbuild\CMakeFiles\0b2ad8dfc0577a8606ad8750e0741c22\eigen-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt4\build\_deps\eigen-subbuild\CMakeFiles\0b2ad8dfc0577a8606ad8750e0741c22\eigen-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt4\build\_deps\eigen-subbuild\CMakeFiles\0b2ad8dfc0577a8606ad8750e0741c22\eigen-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt4\build\_deps\eigen-subbuild\CMakeFiles\0b2ad8dfc0577a8606ad8750e0741c22\eigen-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt4\build\_deps\eigen-subbuild\CMakeFiles\0b2ad8dfc0577a8606ad8750e0741c22\eigen-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt4\build\_deps\eigen-subbuild\CMakeFiles\0b2ad8dfc0577a8606ad8750e0741c22\eigen-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt4\build\_deps\eigen-subbuild\CMakeFiles\0b2ad8dfc0577a8606ad8750e0741c22\eigen-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt4\build\_deps\eigen-subbuild\CMakeFiles\0b2ad8dfc0577a8606ad8750e0741c22\eigen-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt4\build\_deps\eigen-subbuild\CMakeFiles\7fb5379f9e988113c07e162056001392\eigen-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt4\build\_deps\eigen-subbuild\CMakeFiles\5dee15bdec724054a90214b72734b0eb\eigen-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt4\build\_deps\eigen-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\michal\Desktop\projekt4\build\_deps\eigen-subbuild\CMakeFiles\eigen-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{419689E1-1CA4-3492-A9ED-98FECE3AF16C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

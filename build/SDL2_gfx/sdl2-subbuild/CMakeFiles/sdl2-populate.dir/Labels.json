@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/sdl2-populate"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/3565e6c315fd64aa6c81d3d857813797/sdl2-populate.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/b33f32ad830e049843b49c65632448ae/sdl2-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4f45a1890ad7645dfdcc920861b93d86/sdl2-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4f45a1890ad7645dfdcc920861b93d86/sdl2-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4f45a1890ad7645dfdcc920861b93d86/sdl2-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4f45a1890ad7645dfdcc920861b93d86/sdl2-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4f45a1890ad7645dfdcc920861b93d86/sdl2-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4f45a1890ad7645dfdcc920861b93d86/sdl2-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4f45a1890ad7645dfdcc920861b93d86/sdl2-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt4/build/SDL2_gfx/sdl2-subbuild/CMakeFiles/4f45a1890ad7645dfdcc920861b93d86/sdl2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdl2-populate"
+		],
+		"name" : "sdl2-populate"
+	}
+}

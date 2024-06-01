@@ -1,0 +1,1839 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+      Kompilacja rozpoczęła się 01.06.2024 15:30:01.
+      
+      Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.vcxproj" w węźle 1 (domyślne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu "Debug\\".
+        Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+        Tworzenie katalogu "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Trwa tworzenie "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+        Modyfikowanie "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Usuwanie pliku "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Modyfikowanie "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\3.29.2\\CompilerIdC\\CompilerIdC.vcxproj" wykonane (domyślne elementy docelowe).
+      
+      Kompilacja powiodła się.
+          Ostrzeżenia: 0
+          Liczba błędów: 0
+      
+      Czas, który upłynął: 00:00:01.76
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/michal/Desktop/projekt4/build/CMakeFiles/3.29.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+      Kompilacja rozpoczęła się 01.06.2024 15:30:04.
+      
+      Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" w węźle 1 (domyślne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu "Debug\\".
+        Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+        Tworzenie katalogu "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Trwa tworzenie "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+        Modyfikowanie "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Usuwanie pliku "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Modyfikowanie "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\3.29.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" wykonane (domyślne elementy docelowe).
+      
+      Kompilacja powiodła się.
+          Ostrzeżenia: 0
+          Liczba błędów: 0
+      
+      Czas, który upłynął: 00:00:01.18
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/michal/Desktop/projekt4/build/CMakeFiles/3.29.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-w8wwuo"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-w8wwuo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-w8wwuo'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_88958.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:06.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8wwuo\\cmTC_88958.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_88958.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8wwuo\\Debug\\".
+          Tworzenie katalogu "cmTC_88958.dir\\Debug\\cmTC_88958.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_88958.dir\\Debug\\cmTC_88958.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_88958.dir\\Debug\\cmTC_88958.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88958.dir\\Debug\\\\" /Fd"cmTC_88958.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88958.dir\\Debug\\\\" /Fd"cmTC_88958.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8wwuo\\Debug\\cmTC_88958.exe" /INCREMENTAL /ILK:"cmTC_88958.dir\\Debug\\cmTC_88958.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-w8wwuo/Debug/cmTC_88958.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-w8wwuo/Debug/cmTC_88958.lib" /MACHINE:X64  /machine:x64 cmTC_88958.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_88958.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8wwuo\\Debug\\cmTC_88958.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_88958.dir\\Debug\\cmTC_88958.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_88958.dir\\Debug\\cmTC_88958.tlog\\cmTC_88958.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8wwuo\\cmTC_88958.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:01.44
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-qd9dh0"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-qd9dh0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-qd9dh0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_68580.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:08.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qd9dh0\\cmTC_68580.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_68580.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qd9dh0\\Debug\\".
+          Tworzenie katalogu "cmTC_68580.dir\\Debug\\cmTC_68580.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_68580.dir\\Debug\\cmTC_68580.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_68580.dir\\Debug\\cmTC_68580.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_68580.dir\\Debug\\\\" /Fd"cmTC_68580.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_68580.dir\\Debug\\\\" /Fd"cmTC_68580.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qd9dh0\\Debug\\cmTC_68580.exe" /INCREMENTAL /ILK:"cmTC_68580.dir\\Debug\\cmTC_68580.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-qd9dh0/Debug/cmTC_68580.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-qd9dh0/Debug/cmTC_68580.lib" /MACHINE:X64  /machine:x64 cmTC_68580.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_68580.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qd9dh0\\Debug\\cmTC_68580.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_68580.dir\\Debug\\cmTC_68580.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_68580.dir\\Debug\\cmTC_68580.tlog\\cmTC_68580.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qd9dh0\\cmTC_68580.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:01.33
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33523.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindBLAS.cmake:372 (check_function_exists)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindBLAS.cmake:416 (check_blas_libraries)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for sgemm_"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-hvgzzn"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-hvgzzn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/build/CPM_modules;;C:/Users/michal/Desktop/projekt4/matplotplusplus/cmake"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-hvgzzn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_be0c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:12.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hvgzzn\\cmTC_be0c7.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_be0c7.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hvgzzn\\Debug\\".
+          Tworzenie katalogu "cmTC_be0c7.dir\\Debug\\cmTC_be0c7.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_be0c7.dir\\Debug\\cmTC_be0c7.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_be0c7.dir\\Debug\\cmTC_be0c7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be0c7.dir\\Debug\\\\" /Fd"cmTC_be0c7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hvgzzn\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be0c7.dir\\Debug\\\\" /Fd"cmTC_be0c7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hvgzzn\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hvgzzn\\Debug\\cmTC_be0c7.exe" /INCREMENTAL /ILK:"cmTC_be0c7.dir\\Debug\\cmTC_be0c7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-hvgzzn/Debug/cmTC_be0c7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-hvgzzn/Debug/cmTC_be0c7.lib" /MACHINE:X64  /machine:x64 cmTC_be0c7.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: nierozpoznany symbol zewnętrzny sgemm_ przywołany w funkcji main [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hvgzzn\\cmTC_be0c7.vcxproj]
+        C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hvgzzn\\Debug\\cmTC_be0c7.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1 [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hvgzzn\\cmTC_be0c7.vcxproj]
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hvgzzn\\cmTC_be0c7.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hvgzzn\\cmTC_be0c7.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy Link) -> 
+          CheckFunctionExists.obj : error LNK2019: nierozpoznany symbol zewnętrzny sgemm_ przywołany w funkcji main [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hvgzzn\\cmTC_be0c7.vcxproj]
+          C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hvgzzn\\Debug\\cmTC_be0c7.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1 [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hvgzzn\\cmTC_be0c7.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 2
+        
+        Czas, który upłynął: 00:00:00.98
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindBLAS.cmake:468 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-nhaqct"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-nhaqct"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/build/CPM_modules;;C:/Users/michal/Desktop/projekt4/matplotplusplus/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-nhaqct'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f2af3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:13.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhaqct\\cmTC_f2af3.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_f2af3.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhaqct\\Debug\\".
+          Tworzenie katalogu "cmTC_f2af3.dir\\Debug\\cmTC_f2af3.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_f2af3.dir\\Debug\\cmTC_f2af3.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_f2af3.dir\\Debug\\cmTC_f2af3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f2af3.dir\\Debug\\\\" /Fd"cmTC_f2af3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhaqct\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f2af3.dir\\Debug\\\\" /Fd"cmTC_f2af3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhaqct\\src.c"
+          src.c
+        C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhaqct\\src.c(1,10): error C1083: Nie można otworzyć pliku dołącz: 'pthread.h': No such file or directory [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhaqct\\cmTC_f2af3.vcxproj]
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhaqct\\cmTC_f2af3.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhaqct\\cmTC_f2af3.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhaqct\\src.c(1,10): error C1083: Nie można otworzyć pliku dołącz: 'pthread.h': No such file or directory [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nhaqct\\cmTC_f2af3.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:00.95
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindBLAS.cmake:468 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-kg3cai"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-kg3cai"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/build/CPM_modules;;C:/Users/michal/Desktop/projekt4/matplotplusplus/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-kg3cai'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4a7aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:15.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kg3cai\\cmTC_4a7aa.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_4a7aa.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kg3cai\\Debug\\".
+          Tworzenie katalogu "cmTC_4a7aa.dir\\Debug\\cmTC_4a7aa.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_4a7aa.dir\\Debug\\cmTC_4a7aa.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_4a7aa.dir\\Debug\\cmTC_4a7aa.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4a7aa.dir\\Debug\\\\" /Fd"cmTC_4a7aa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kg3cai\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4a7aa.dir\\Debug\\\\" /Fd"cmTC_4a7aa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kg3cai\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kg3cai\\Debug\\cmTC_4a7aa.exe" /INCREMENTAL /ILK:"cmTC_4a7aa.dir\\Debug\\cmTC_4a7aa.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-kg3cai/Debug/cmTC_4a7aa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-kg3cai/Debug/cmTC_4a7aa.lib" /MACHINE:X64  /machine:x64 cmTC_4a7aa.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie można otworzyć pliku "pthreads.lib" [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kg3cai\\cmTC_4a7aa.vcxproj]
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kg3cai\\cmTC_4a7aa.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kg3cai\\cmTC_4a7aa.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : fatal error LNK1104: nie można otworzyć pliku "pthreads.lib" [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kg3cai\\cmTC_4a7aa.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:01.13
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindBLAS.cmake:468 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "matplotplusplus/source/3rd_party/CMakeLists.txt:96 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-lj1xy8"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-lj1xy8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/build/CPM_modules;;C:/Users/michal/Desktop/projekt4/matplotplusplus/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-lj1xy8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e78e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:16.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lj1xy8\\cmTC_e78e2.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_e78e2.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lj1xy8\\Debug\\".
+          Tworzenie katalogu "cmTC_e78e2.dir\\Debug\\cmTC_e78e2.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_e78e2.dir\\Debug\\cmTC_e78e2.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_e78e2.dir\\Debug\\cmTC_e78e2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e78e2.dir\\Debug\\\\" /Fd"cmTC_e78e2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lj1xy8\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e78e2.dir\\Debug\\\\" /Fd"cmTC_e78e2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lj1xy8\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lj1xy8\\Debug\\cmTC_e78e2.exe" /INCREMENTAL /ILK:"cmTC_e78e2.dir\\Debug\\cmTC_e78e2.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-lj1xy8/Debug/cmTC_e78e2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-lj1xy8/Debug/cmTC_e78e2.lib" /MACHINE:X64  /machine:x64 cmTC_e78e2.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie można otworzyć pliku "pthread.lib" [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lj1xy8\\cmTC_e78e2.vcxproj]
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lj1xy8\\cmTC_e78e2.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lj1xy8\\cmTC_e78e2.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : fatal error LNK1104: nie można otworzyć pliku "pthread.lib" [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lj1xy8\\cmTC_e78e2.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:01.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake:89 (try_compile)"
+      - "matplotplusplus/cmake/FindFilesystem.cmake:157 (check_include_file_cxx)"
+      - "matplotplusplus/source/matplot/CMakeLists.txt:2 (find_package)"
+    checks:
+      - "Looking for C++ include filesystem"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-e4efz6"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-e4efz6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O2"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/build/CPM_modules;;C:/Users/michal/Desktop/projekt4/matplotplusplus/cmake"
+    buildResult:
+      variable: "_CXX_FILESYSTEM_HAVE_HEADER"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-e4efz6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_33de1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:20.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e4efz6\\cmTC_33de1.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_33de1.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e4efz6\\Debug\\".
+          Tworzenie katalogu "cmTC_33de1.dir\\Debug\\cmTC_33de1.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_33de1.dir\\Debug\\cmTC_33de1.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_33de1.dir\\Debug\\cmTC_33de1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_33de1.dir\\Debug\\\\" /Fd"cmTC_33de1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e4efz6\\CheckIncludeFile.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_33de1.dir\\Debug\\\\" /Fd"cmTC_33de1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e4efz6\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e4efz6\\Debug\\cmTC_33de1.exe" /INCREMENTAL /ILK:"cmTC_33de1.dir\\Debug\\cmTC_33de1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-e4efz6/Debug/cmTC_33de1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-e4efz6/Debug/cmTC_33de1.lib" /MACHINE:X64  /machine:x64 cmTC_33de1.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_33de1.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e4efz6\\Debug\\cmTC_33de1.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_33de1.dir\\Debug\\cmTC_33de1.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_33de1.dir\\Debug\\cmTC_33de1.tlog\\cmTC_33de1.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e4efz6\\cmTC_33de1.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:03.67
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "matplotplusplus/cmake/FindFilesystem.cmake:120 (check_cxx_source_runs)"
+      - "matplotplusplus/cmake/FindFilesystem.cmake:210 (_cmcm_check_cxx_source)"
+      - "matplotplusplus/source/matplot/CMakeLists.txt:2 (find_package)"
+    checks:
+      - "Performing Test CXX_FILESYSTEM_NO_LINK_NEEDED"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-69fbtk"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-69fbtk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc /O2"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/build/CPM_modules;;C:/Users/michal/Desktop/projekt4/matplotplusplus/cmake"
+    buildResult:
+      variable: "CXX_FILESYSTEM_NO_LINK_NEEDED_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-69fbtk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8a1c5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:24.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\cmTC_8a1c5.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_8a1c5.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\Debug\\".
+          Tworzenie katalogu "cmTC_8a1c5.dir\\Debug\\cmTC_8a1c5.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_8a1c5.dir\\Debug\\cmTC_8a1c5.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_8a1c5.dir\\Debug\\cmTC_8a1c5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FILESYSTEM_NO_LINK_NEEDED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_8a1c5.dir\\Debug\\\\" /Fd"cmTC_8a1c5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\src.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FILESYSTEM_NO_LINK_NEEDED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_8a1c5.dir\\Debug\\\\" /Fd"cmTC_8a1c5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\src.cxx"
+          src.cxx
+        C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\src.cxx(6,20): warning C4477: "printf": ciąg formatu "%s" wymaga argumentu typu "char *", ale argument 1 ze zmienną liczbą argumentów ma typ "const std::filesystem::path::value_type *" [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\cmTC_8a1c5.vcxproj]
+          C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\src.cxx(6,20):
+          rozważ użycie elementu "%ls" w ciągu formatu
+          C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\src.cxx(6,20):
+          rozważ użycie elementu "%lls" w ciągu formatu
+          C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\src.cxx(6,20):
+          rozważ użycie elementu "%Ls" w ciągu formatu
+          C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\src.cxx(6,20):
+          rozważ użycie elementu "%ws" w ciągu formatu
+          
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\Debug\\cmTC_8a1c5.exe" /INCREMENTAL /ILK:"cmTC_8a1c5.dir\\Debug\\cmTC_8a1c5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-69fbtk/Debug/cmTC_8a1c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-69fbtk/Debug/cmTC_8a1c5.lib" /MACHINE:X64  /machine:x64 cmTC_8a1c5.dir\\Debug\\src.obj
+          cmTC_8a1c5.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\Debug\\cmTC_8a1c5.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_8a1c5.dir\\Debug\\cmTC_8a1c5.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_8a1c5.dir\\Debug\\cmTC_8a1c5.tlog\\cmTC_8a1c5.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\cmTC_8a1c5.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+        
+        "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\cmTC_8a1c5.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\src.cxx(6,20): warning C4477: "printf": ciąg formatu "%s" wymaga argumentu typu "char *", ale argument 1 ze zmienną liczbą argumentów ma typ "const std::filesystem::path::value_type *" [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69fbtk\\cmTC_8a1c5.vcxproj]
+        
+            Ostrzeżenia: 1
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:02.48
+        
+      exitCode: 0
+    runResult:
+      variable: "CXX_FILESYSTEM_NO_LINK_NEEDED_EXITCODE"
+      cached: true
+      stdout: |
+        C
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "matplotplusplus/source/matplot/CMakeLists.txt:141 (check_symbol_exists)"
+    checks:
+      - "Looking for __fbufsize"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-zrpvlt"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-zrpvlt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/build/CPM_modules;;C:/Users/michal/Desktop/projekt4/matplotplusplus/cmake"
+    buildResult:
+      variable: "HAVE_FBUFSIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-zrpvlt'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2425b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:27.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrpvlt\\cmTC_2425b.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_2425b.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrpvlt\\Debug\\".
+          Tworzenie katalogu "cmTC_2425b.dir\\Debug\\cmTC_2425b.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_2425b.dir\\Debug\\cmTC_2425b.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_2425b.dir\\Debug\\cmTC_2425b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2425b.dir\\Debug\\\\" /Fd"cmTC_2425b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrpvlt\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2425b.dir\\Debug\\\\" /Fd"cmTC_2425b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrpvlt\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrpvlt\\CheckSymbolExists.c(2,10): error C1083: Nie można otworzyć pliku dołącz: 'stdio_ext.h': No such file or directory [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrpvlt\\cmTC_2425b.vcxproj]
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrpvlt\\cmTC_2425b.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrpvlt\\cmTC_2425b.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrpvlt\\CheckSymbolExists.c(2,10): error C1083: Nie można otworzyć pliku dołącz: 'stdio_ext.h': No such file or directory [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zrpvlt\\cmTC_2425b.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "SDL/CMakeLists.txt:77 (check_symbol_exists)"
+    checks:
+      - "Looking for __GLIBC__"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-hswrqj"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-hswrqj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "LIBC_IS_GLIBC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-hswrqj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_06f64.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:29.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hswrqj\\cmTC_06f64.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_06f64.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hswrqj\\Debug\\".
+          Tworzenie katalogu "cmTC_06f64.dir\\Debug\\cmTC_06f64.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_06f64.dir\\Debug\\cmTC_06f64.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_06f64.dir\\Debug\\cmTC_06f64.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06f64.dir\\Debug\\\\" /Fd"cmTC_06f64.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hswrqj\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06f64.dir\\Debug\\\\" /Fd"cmTC_06f64.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hswrqj\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hswrqj\\CheckSymbolExists.c(8,28): error C2065: "__GLIBC__": niezadeklarowany identyfikator [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hswrqj\\cmTC_06f64.vcxproj]
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hswrqj\\cmTC_06f64.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hswrqj\\cmTC_06f64.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hswrqj\\CheckSymbolExists.c(8,28): error C2065: "__GLIBC__": niezadeklarowany identyfikator [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hswrqj\\cmTC_06f64.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 1
+        
+        Czas, który upłynął: 00:00:00.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:918 (check_include_file)"
+    checks:
+      - "Looking for immintrin.h"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-8qdt8u"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-8qdt8u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_IMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-8qdt8u'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f8caf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:29.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qdt8u\\cmTC_f8caf.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_f8caf.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qdt8u\\Debug\\".
+          Tworzenie katalogu "cmTC_f8caf.dir\\Debug\\cmTC_f8caf.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_f8caf.dir\\Debug\\cmTC_f8caf.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_f8caf.dir\\Debug\\cmTC_f8caf.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8caf.dir\\Debug\\\\" /Fd"cmTC_f8caf.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qdt8u\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8caf.dir\\Debug\\\\" /Fd"cmTC_f8caf.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qdt8u\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qdt8u\\Debug\\cmTC_f8caf.exe" /INCREMENTAL /ILK:"cmTC_f8caf.dir\\Debug\\cmTC_f8caf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-8qdt8u/Debug/cmTC_f8caf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-8qdt8u/Debug/cmTC_f8caf.lib" /MACHINE:X64  /machine:x64 cmTC_f8caf.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_f8caf.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qdt8u\\Debug\\cmTC_f8caf.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_f8caf.dir\\Debug\\cmTC_f8caf.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_f8caf.dir\\Debug\\cmTC_f8caf.tlog\\cmTC_f8caf.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qdt8u\\cmTC_f8caf.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1596 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WIN32_CC"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-qouh3t"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-qouh3t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_WIN32_CC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-qouh3t'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f519e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:30.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qouh3t\\cmTC_f519e.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_f519e.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qouh3t\\Debug\\".
+          Tworzenie katalogu "cmTC_f519e.dir\\Debug\\cmTC_f519e.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_f519e.dir\\Debug\\cmTC_f519e.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_f519e.dir\\Debug\\cmTC_f519e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f519e.dir\\Debug\\\\" /Fd"cmTC_f519e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qouh3t\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f519e.dir\\Debug\\\\" /Fd"cmTC_f519e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qouh3t\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qouh3t\\Debug\\cmTC_f519e.exe" /INCREMENTAL /ILK:"cmTC_f519e.dir\\Debug\\cmTC_f519e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-qouh3t/Debug/cmTC_f519e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-qouh3t/Debug/cmTC_f519e.lib" /MACHINE:X64  /machine:x64 cmTC_f519e.dir\\Debug\\src.obj
+          cmTC_f519e.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qouh3t\\Debug\\cmTC_f519e.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_f519e.dir\\Debug\\cmTC_f519e.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_f519e.dir\\Debug\\cmTC_f519e.tlog\\cmTC_f519e.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qouh3t\\cmTC_f519e.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1638 (check_include_file)"
+    checks:
+      - "Looking for d3d9.h"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-tqsoh1"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-tqsoh1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_D3D_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-tqsoh1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5b6b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:31.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqsoh1\\cmTC_5b6b3.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_5b6b3.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqsoh1\\Debug\\".
+          Tworzenie katalogu "cmTC_5b6b3.dir\\Debug\\cmTC_5b6b3.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_5b6b3.dir\\Debug\\cmTC_5b6b3.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_5b6b3.dir\\Debug\\cmTC_5b6b3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5b6b3.dir\\Debug\\\\" /Fd"cmTC_5b6b3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqsoh1\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5b6b3.dir\\Debug\\\\" /Fd"cmTC_5b6b3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqsoh1\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqsoh1\\Debug\\cmTC_5b6b3.exe" /INCREMENTAL /ILK:"cmTC_5b6b3.dir\\Debug\\cmTC_5b6b3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-tqsoh1/Debug/cmTC_5b6b3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-tqsoh1/Debug/cmTC_5b6b3.lib" /MACHINE:X64  /machine:x64 cmTC_5b6b3.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_5b6b3.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqsoh1\\Debug\\cmTC_5b6b3.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_5b6b3.dir\\Debug\\cmTC_5b6b3.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_5b6b3.dir\\Debug\\cmTC_5b6b3.tlog\\cmTC_5b6b3.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqsoh1\\cmTC_5b6b3.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1639 (check_include_file)"
+    checks:
+      - "Looking for d3d11_1.h"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-16k1ct"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-16k1ct"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_D3D11_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-16k1ct'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_83366.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:31.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16k1ct\\cmTC_83366.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_83366.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16k1ct\\Debug\\".
+          Tworzenie katalogu "cmTC_83366.dir\\Debug\\cmTC_83366.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_83366.dir\\Debug\\cmTC_83366.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_83366.dir\\Debug\\cmTC_83366.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_83366.dir\\Debug\\\\" /Fd"cmTC_83366.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16k1ct\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_83366.dir\\Debug\\\\" /Fd"cmTC_83366.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16k1ct\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16k1ct\\Debug\\cmTC_83366.exe" /INCREMENTAL /ILK:"cmTC_83366.dir\\Debug\\cmTC_83366.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-16k1ct/Debug/cmTC_83366.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-16k1ct/Debug/cmTC_83366.lib" /MACHINE:X64  /machine:x64 cmTC_83366.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_83366.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16k1ct\\Debug\\cmTC_83366.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_83366.dir\\Debug\\cmTC_83366.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_83366.dir\\Debug\\cmTC_83366.tlog\\cmTC_83366.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16k1ct\\cmTC_83366.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1640 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_D3D12_H"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-d0gp2v"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-d0gp2v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_D3D12_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-d0gp2v'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3ea47.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:32.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0gp2v\\cmTC_3ea47.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_3ea47.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0gp2v\\Debug\\".
+          Tworzenie katalogu "cmTC_3ea47.dir\\Debug\\cmTC_3ea47.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_3ea47.dir\\Debug\\cmTC_3ea47.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_3ea47.dir\\Debug\\cmTC_3ea47.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_D3D12_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3ea47.dir\\Debug\\\\" /Fd"cmTC_3ea47.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0gp2v\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_D3D12_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3ea47.dir\\Debug\\\\" /Fd"cmTC_3ea47.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0gp2v\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0gp2v\\Debug\\cmTC_3ea47.exe" /INCREMENTAL /ILK:"cmTC_3ea47.dir\\Debug\\cmTC_3ea47.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-d0gp2v/Debug/cmTC_3ea47.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-d0gp2v/Debug/cmTC_3ea47.lib" /MACHINE:X64  /machine:x64 cmTC_3ea47.dir\\Debug\\src.obj
+          cmTC_3ea47.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0gp2v\\Debug\\cmTC_3ea47.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_3ea47.dir\\Debug\\cmTC_3ea47.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_3ea47.dir\\Debug\\cmTC_3ea47.tlog\\cmTC_3ea47.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d0gp2v\\cmTC_3ea47.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.55
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1648 (check_include_file)"
+    checks:
+      - "Looking for ddraw.h"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-u7t83h"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-u7t83h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DDRAW_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-u7t83h'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_13da7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:33.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7t83h\\cmTC_13da7.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_13da7.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7t83h\\Debug\\".
+          Tworzenie katalogu "cmTC_13da7.dir\\Debug\\cmTC_13da7.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_13da7.dir\\Debug\\cmTC_13da7.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_13da7.dir\\Debug\\cmTC_13da7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13da7.dir\\Debug\\\\" /Fd"cmTC_13da7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7t83h\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13da7.dir\\Debug\\\\" /Fd"cmTC_13da7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7t83h\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7t83h\\Debug\\cmTC_13da7.exe" /INCREMENTAL /ILK:"cmTC_13da7.dir\\Debug\\cmTC_13da7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-u7t83h/Debug/cmTC_13da7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-u7t83h/Debug/cmTC_13da7.lib" /MACHINE:X64  /machine:x64 cmTC_13da7.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_13da7.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7t83h\\Debug\\cmTC_13da7.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_13da7.dir\\Debug\\cmTC_13da7.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_13da7.dir\\Debug\\cmTC_13da7.tlog\\cmTC_13da7.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u7t83h\\cmTC_13da7.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.60
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1649 (check_include_file)"
+    checks:
+      - "Looking for dsound.h"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-w3rrji"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-w3rrji"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DSOUND_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-w3rrji'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_afdca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:33.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w3rrji\\cmTC_afdca.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_afdca.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w3rrji\\Debug\\".
+          Tworzenie katalogu "cmTC_afdca.dir\\Debug\\cmTC_afdca.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_afdca.dir\\Debug\\cmTC_afdca.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_afdca.dir\\Debug\\cmTC_afdca.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_afdca.dir\\Debug\\\\" /Fd"cmTC_afdca.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w3rrji\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_afdca.dir\\Debug\\\\" /Fd"cmTC_afdca.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w3rrji\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w3rrji\\Debug\\cmTC_afdca.exe" /INCREMENTAL /ILK:"cmTC_afdca.dir\\Debug\\cmTC_afdca.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-w3rrji/Debug/cmTC_afdca.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-w3rrji/Debug/cmTC_afdca.lib" /MACHINE:X64  /machine:x64 cmTC_afdca.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_afdca.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w3rrji\\Debug\\cmTC_afdca.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_afdca.dir\\Debug\\cmTC_afdca.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_afdca.dir\\Debug\\cmTC_afdca.tlog\\cmTC_afdca.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w3rrji\\cmTC_afdca.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1650 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-abuy42"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-abuy42"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-abuy42'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fc313.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:34.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-abuy42\\cmTC_fc313.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_fc313.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-abuy42\\Debug\\".
+          Tworzenie katalogu "cmTC_fc313.dir\\Debug\\cmTC_fc313.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_fc313.dir\\Debug\\cmTC_fc313.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_fc313.dir\\Debug\\cmTC_fc313.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc313.dir\\Debug\\\\" /Fd"cmTC_fc313.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-abuy42\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc313.dir\\Debug\\\\" /Fd"cmTC_fc313.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-abuy42\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+          C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-abuy42\\Debug\\cmTC_fc313.exe" /INCREMENTAL /ILK:"cmTC_fc313.dir\\Debug\\cmTC_fc313.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-abuy42/Debug/cmTC_fc313.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-abuy42/Debug/cmTC_fc313.lib" /MACHINE:X64  /machine:x64 cmTC_fc313.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_fc313.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-abuy42\\Debug\\cmTC_fc313.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_fc313.dir\\Debug\\cmTC_fc313.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_fc313.dir\\Debug\\cmTC_fc313.tlog\\cmTC_fc313.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-abuy42\\cmTC_fc313.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1654 (check_include_file)"
+    checks:
+      - "Looking for dxgi.h"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-dkg6fd"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-dkg6fd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_DXGI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-dkg6fd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2f468.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:35.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkg6fd\\cmTC_2f468.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_2f468.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkg6fd\\Debug\\".
+          Tworzenie katalogu "cmTC_2f468.dir\\Debug\\cmTC_2f468.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_2f468.dir\\Debug\\cmTC_2f468.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_2f468.dir\\Debug\\cmTC_2f468.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f468.dir\\Debug\\\\" /Fd"cmTC_2f468.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkg6fd\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f468.dir\\Debug\\\\" /Fd"cmTC_2f468.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkg6fd\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkg6fd\\Debug\\cmTC_2f468.exe" /INCREMENTAL /ILK:"cmTC_2f468.dir\\Debug\\cmTC_2f468.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-dkg6fd/Debug/cmTC_2f468.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-dkg6fd/Debug/cmTC_2f468.lib" /MACHINE:X64  /machine:x64 cmTC_2f468.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_2f468.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkg6fd\\Debug\\cmTC_2f468.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_2f468.dir\\Debug\\cmTC_2f468.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_2f468.dir\\Debug\\cmTC_2f468.tlog\\cmTC_2f468.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dkg6fd\\cmTC_2f468.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1668 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_H"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-dcj9zp"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-dcj9zp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-dcj9zp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c5a25.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:35.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dcj9zp\\cmTC_c5a25.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_c5a25.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dcj9zp\\Debug\\".
+          Tworzenie katalogu "cmTC_c5a25.dir\\Debug\\cmTC_c5a25.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_c5a25.dir\\Debug\\cmTC_c5a25.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_c5a25.dir\\Debug\\cmTC_c5a25.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c5a25.dir\\Debug\\\\" /Fd"cmTC_c5a25.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dcj9zp\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c5a25.dir\\Debug\\\\" /Fd"cmTC_c5a25.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dcj9zp\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dcj9zp\\Debug\\cmTC_c5a25.exe" /INCREMENTAL /ILK:"cmTC_c5a25.dir\\Debug\\cmTC_c5a25.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-dcj9zp/Debug/cmTC_c5a25.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-dcj9zp/Debug/cmTC_c5a25.lib" /MACHINE:X64  /machine:x64 cmTC_c5a25.dir\\Debug\\src.obj
+          cmTC_c5a25.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dcj9zp\\Debug\\cmTC_c5a25.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_c5a25.dir\\Debug\\cmTC_c5a25.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_c5a25.dir\\Debug\\cmTC_c5a25.tlog\\cmTC_c5a25.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dcj9zp\\cmTC_c5a25.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.49
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1672 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_GAMEPAD_EX"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-a5vrvn"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-a5vrvn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_GAMEPAD_EX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-a5vrvn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6f2c9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:36.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5vrvn\\cmTC_6f2c9.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_6f2c9.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5vrvn\\Debug\\".
+          Tworzenie katalogu "cmTC_6f2c9.dir\\Debug\\cmTC_6f2c9.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_6f2c9.dir\\Debug\\cmTC_6f2c9.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_6f2c9.dir\\Debug\\cmTC_6f2c9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f2c9.dir\\Debug\\\\" /Fd"cmTC_6f2c9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5vrvn\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f2c9.dir\\Debug\\\\" /Fd"cmTC_6f2c9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5vrvn\\src.c"
+          src.c
+        C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5vrvn\\src.c(4,25): error C2061: błąd składniowy: identyfikator "x1" [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5vrvn\\cmTC_6f2c9.vcxproj]
+        C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5vrvn\\src.c(4,25): error C2059: błąd składniowy: ";" [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5vrvn\\cmTC_6f2c9.vcxproj]
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5vrvn\\cmTC_6f2c9.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5vrvn\\cmTC_6f2c9.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5vrvn\\src.c(4,25): error C2061: błąd składniowy: identyfikator "x1" [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5vrvn\\cmTC_6f2c9.vcxproj]
+          C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5vrvn\\src.c(4,25): error C2059: błąd składniowy: ";" [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a5vrvn\\cmTC_6f2c9.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 2
+        
+        Czas, który upłynął: 00:00:00.41
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1677 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_STATE_EX"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-7zwfj7"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-7zwfj7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_STATE_EX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-7zwfj7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6efae.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:37.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7zwfj7\\cmTC_6efae.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_6efae.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7zwfj7\\Debug\\".
+          Tworzenie katalogu "cmTC_6efae.dir\\Debug\\cmTC_6efae.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_6efae.dir\\Debug\\cmTC_6efae.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_6efae.dir\\Debug\\cmTC_6efae.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6efae.dir\\Debug\\\\" /Fd"cmTC_6efae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7zwfj7\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6efae.dir\\Debug\\\\" /Fd"cmTC_6efae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7zwfj7\\src.c"
+          src.c
+        C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7zwfj7\\src.c(4,23): error C2061: błąd składniowy: identyfikator "s1" [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7zwfj7\\cmTC_6efae.vcxproj]
+        C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7zwfj7\\src.c(4,23): error C2059: błąd składniowy: ";" [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7zwfj7\\cmTC_6efae.vcxproj]
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7zwfj7\\cmTC_6efae.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIODŁA SIĘ.
+        
+        "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7zwfj7\\cmTC_6efae.vcxproj" (domyślny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7zwfj7\\src.c(4,23): error C2061: błąd składniowy: identyfikator "s1" [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7zwfj7\\cmTC_6efae.vcxproj]
+          C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7zwfj7\\src.c(4,23): error C2059: błąd składniowy: ";" [C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7zwfj7\\cmTC_6efae.vcxproj]
+        
+            Ostrzeżenia: 0
+            Liczba błędów: 2
+        
+        Czas, który upłynął: 00:00:00.41
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "SDL/CMakeLists.txt:1682 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WINDOWS_GAMING_INPUT_H"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-pxjhf1"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-pxjhf1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_WINDOWS_GAMING_INPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-pxjhf1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1c00b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:37.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxjhf1\\cmTC_1c00b.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_1c00b.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxjhf1\\Debug\\".
+          Tworzenie katalogu "cmTC_1c00b.dir\\Debug\\cmTC_1c00b.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_1c00b.dir\\Debug\\cmTC_1c00b.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_1c00b.dir\\Debug\\cmTC_1c00b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c00b.dir\\Debug\\\\" /Fd"cmTC_1c00b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxjhf1\\src.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c00b.dir\\Debug\\\\" /Fd"cmTC_1c00b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxjhf1\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxjhf1\\Debug\\cmTC_1c00b.exe" /INCREMENTAL /ILK:"cmTC_1c00b.dir\\Debug\\cmTC_1c00b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-pxjhf1/Debug/cmTC_1c00b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-pxjhf1/Debug/cmTC_1c00b.lib" /MACHINE:X64  /machine:x64 cmTC_1c00b.dir\\Debug\\src.obj
+          cmTC_1c00b.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxjhf1\\Debug\\cmTC_1c00b.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_1c00b.dir\\Debug\\cmTC_1c00b.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_1c00b.dir\\Debug\\cmTC_1c00b.tlog\\cmTC_1c00b.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pxjhf1\\cmTC_1c00b.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.98
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1690 (check_include_file)"
+    checks:
+      - "Looking for tpcshrd.h"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-lew417"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-lew417"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_TPCSHRD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-lew417'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_becfc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:38.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lew417\\cmTC_becfc.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_becfc.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lew417\\Debug\\".
+          Tworzenie katalogu "cmTC_becfc.dir\\Debug\\cmTC_becfc.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_becfc.dir\\Debug\\cmTC_becfc.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_becfc.dir\\Debug\\cmTC_becfc.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_becfc.dir\\Debug\\\\" /Fd"cmTC_becfc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lew417\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_becfc.dir\\Debug\\\\" /Fd"cmTC_becfc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lew417\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lew417\\Debug\\cmTC_becfc.exe" /INCREMENTAL /ILK:"cmTC_becfc.dir\\Debug\\cmTC_becfc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-lew417/Debug/cmTC_becfc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-lew417/Debug/cmTC_becfc.lib" /MACHINE:X64  /machine:x64 cmTC_becfc.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_becfc.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lew417\\Debug\\cmTC_becfc.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_becfc.dir\\Debug\\cmTC_becfc.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_becfc.dir\\Debug\\cmTC_becfc.tlog\\cmTC_becfc.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lew417\\cmTC_becfc.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.49
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1691 (check_include_file)"
+    checks:
+      - "Looking for roapi.h"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-0po50m"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-0po50m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_ROAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-0po50m'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ce975.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:39.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0po50m\\cmTC_ce975.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_ce975.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0po50m\\Debug\\".
+          Tworzenie katalogu "cmTC_ce975.dir\\Debug\\cmTC_ce975.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_ce975.dir\\Debug\\cmTC_ce975.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_ce975.dir\\Debug\\cmTC_ce975.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce975.dir\\Debug\\\\" /Fd"cmTC_ce975.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0po50m\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce975.dir\\Debug\\\\" /Fd"cmTC_ce975.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0po50m\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0po50m\\Debug\\cmTC_ce975.exe" /INCREMENTAL /ILK:"cmTC_ce975.dir\\Debug\\cmTC_ce975.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-0po50m/Debug/cmTC_ce975.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-0po50m/Debug/cmTC_ce975.lib" /MACHINE:X64  /machine:x64 cmTC_ce975.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_ce975.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0po50m\\Debug\\cmTC_ce975.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_ce975.dir\\Debug\\cmTC_ce975.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_ce975.dir\\Debug\\cmTC_ce975.tlog\\cmTC_ce975.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0po50m\\cmTC_ce975.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.48
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1692 (check_include_file)"
+    checks:
+      - "Looking for mmdeviceapi.h"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-9bvh7q"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-9bvh7q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_MMDEVICEAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-9bvh7q'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c2e2f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:40.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9bvh7q\\cmTC_c2e2f.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_c2e2f.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9bvh7q\\Debug\\".
+          Tworzenie katalogu "cmTC_c2e2f.dir\\Debug\\cmTC_c2e2f.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_c2e2f.dir\\Debug\\cmTC_c2e2f.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_c2e2f.dir\\Debug\\cmTC_c2e2f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2e2f.dir\\Debug\\\\" /Fd"cmTC_c2e2f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9bvh7q\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2e2f.dir\\Debug\\\\" /Fd"cmTC_c2e2f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9bvh7q\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9bvh7q\\Debug\\cmTC_c2e2f.exe" /INCREMENTAL /ILK:"cmTC_c2e2f.dir\\Debug\\cmTC_c2e2f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-9bvh7q/Debug/cmTC_c2e2f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-9bvh7q/Debug/cmTC_c2e2f.lib" /MACHINE:X64  /machine:x64 cmTC_c2e2f.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_c2e2f.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9bvh7q\\Debug\\cmTC_c2e2f.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_c2e2f.dir\\Debug\\cmTC_c2e2f.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_c2e2f.dir\\Debug\\cmTC_c2e2f.tlog\\cmTC_c2e2f.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9bvh7q\\cmTC_c2e2f.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1693 (check_include_file)"
+    checks:
+      - "Looking for audioclient.h"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-ubgjiz"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-ubgjiz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_AUDIOCLIENT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-ubgjiz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_715ec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:40.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubgjiz\\cmTC_715ec.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_715ec.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubgjiz\\Debug\\".
+          Tworzenie katalogu "cmTC_715ec.dir\\Debug\\cmTC_715ec.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_715ec.dir\\Debug\\cmTC_715ec.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_715ec.dir\\Debug\\cmTC_715ec.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_715ec.dir\\Debug\\\\" /Fd"cmTC_715ec.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubgjiz\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_715ec.dir\\Debug\\\\" /Fd"cmTC_715ec.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubgjiz\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubgjiz\\Debug\\cmTC_715ec.exe" /INCREMENTAL /ILK:"cmTC_715ec.dir\\Debug\\cmTC_715ec.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-ubgjiz/Debug/cmTC_715ec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-ubgjiz/Debug/cmTC_715ec.lib" /MACHINE:X64  /machine:x64 cmTC_715ec.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_715ec.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubgjiz\\Debug\\cmTC_715ec.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_715ec.dir\\Debug\\cmTC_715ec.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_715ec.dir\\Debug\\cmTC_715ec.tlog\\cmTC_715ec.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubgjiz\\cmTC_715ec.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1694 (check_include_file)"
+    checks:
+      - "Looking for sensorsapi.h"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-i5swwg"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-i5swwg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_SENSORSAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-i5swwg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_03573.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:41.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5swwg\\cmTC_03573.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_03573.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5swwg\\Debug\\".
+          Tworzenie katalogu "cmTC_03573.dir\\Debug\\cmTC_03573.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_03573.dir\\Debug\\cmTC_03573.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_03573.dir\\Debug\\cmTC_03573.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03573.dir\\Debug\\\\" /Fd"cmTC_03573.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5swwg\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03573.dir\\Debug\\\\" /Fd"cmTC_03573.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5swwg\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5swwg\\Debug\\cmTC_03573.exe" /INCREMENTAL /ILK:"cmTC_03573.dir\\Debug\\cmTC_03573.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-i5swwg/Debug/cmTC_03573.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-i5swwg/Debug/cmTC_03573.lib" /MACHINE:X64  /machine:x64 cmTC_03573.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_03573.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5swwg\\Debug\\cmTC_03573.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_03573.dir\\Debug\\cmTC_03573.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_03573.dir\\Debug\\cmTC_03573.tlog\\cmTC_03573.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i5swwg\\cmTC_03573.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "SDL/CMakeLists.txt:1695 (check_include_file)"
+    checks:
+      - "Looking for shellscalingapi.h"
+    directories:
+      source: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-fpvunk"
+      binary: "C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-fpvunk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/michal/Desktop/projekt4/SDL/cmake"
+    buildResult:
+      variable: "HAVE_SHELLSCALINGAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-fpvunk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1c653.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
+        Kompilacja rozpoczęła się 01.06.2024 15:30:41.
+        
+        Projekt "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fpvunk\\cmTC_1c653.vcxproj" w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu "cmTC_1c653.dir\\Debug\\".
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fpvunk\\Debug\\".
+          Tworzenie katalogu "cmTC_1c653.dir\\Debug\\cmTC_1c653.tlog\\".
+        InitializeBuildStatus:
+          Trwa tworzenie "cmTC_1c653.dir\\Debug\\cmTC_1c653.tlog\\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+          Modyfikowanie "cmTC_1c653.dir\\Debug\\cmTC_1c653.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c653.dir\\Debug\\\\" /Fd"cmTC_1c653.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fpvunk\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c653.dir\\Debug\\\\" /Fd"cmTC_1c653.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fpvunk\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fpvunk\\Debug\\cmTC_1c653.exe" /INCREMENTAL /ILK:"cmTC_1c653.dir\\Debug\\cmTC_1c653.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-fpvunk/Debug/cmTC_1c653.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt4/build/CMakeFiles/CMakeScratch/TryCompile-fpvunk/Debug/cmTC_1c653.lib" /MACHINE:X64  /machine:x64 cmTC_1c653.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_1c653.vcxproj -> C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fpvunk\\Debug\\cmTC_1c653.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku "cmTC_1c653.dir\\Debug\\cmTC_1c653.tlog\\unsuccessfulbuild".
+          Modyfikowanie "cmTC_1c653.dir\\Debug\\cmTC_1c653.tlog\\cmTC_1c653.lastbuildstate".
+        Kompilowanie projektu "C:\\Users\\michal\\Desktop\\projekt4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fpvunk\\cmTC_1c653.vcxproj" wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.47
+        
+      exitCode: 0
+...
